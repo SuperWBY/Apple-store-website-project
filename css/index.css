@@ -9,11 +9,16 @@ menu{
     background-color: #333333;
     color: aliceblue;
     text-align: center;
+    height: auto;
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 menu li{
     display: inline;
     align-items: center;
+    margin-left: 2%;
 }
 
 menu li a{
@@ -22,6 +27,31 @@ menu li a{
 }
 
 menu img{
-    width: 10%;
-    height: 10%;
+    width: 1.5%;
+    height: 1.5%;
+}
+
+.container{
+    height: auto;
+    width: auto;
+
+}
+
+.introProduct{
+    color: azure;
+    background-image: url(../images/introduce.png);
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 40%;
+}
+
+.introProduct span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.introProduct a{
+    text-decoration: none;
+    color: #2486E2;
 }
