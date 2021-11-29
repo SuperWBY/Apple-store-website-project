@@ -39,7 +39,7 @@ menu img{
 
 .introProduct{
     color: azure;
-    background-image: url(../images/introduce.png);
+    background-image: url(../images/introduce.jpg);
     background-size: 100% 100%;
     text-align: center;
     padding: 5%;
@@ -54,4 +54,15 @@ menu img{
 .introProduct a{
     text-decoration: none;
     color: #2486E2;
+}
+
+.productDescription{
+    padding-top: 5%;
+    height: auto;
+    width: auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
